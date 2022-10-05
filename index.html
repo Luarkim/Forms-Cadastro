@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head> <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando CSS</title> <link rel="stylesheet" href="estilo.css">
+    </head><body> <h2 class="centro">Formulário de cadastro</h2>
+    <form action="backend.php" method="post"> 
+
+
+    <fieldset class="fsPessoais"> <legend class="fsPessoais">Dados pessoais</legend>
+
+    <label :required for="nome">Nome Completo: </label> 
+    <input type="text" name="nome" /><br/> 
+
+    <label :required for="email">E-mail: </label> 
+    <input type="email" name="email" /><br/> 
+
+    <label :required for="cidade">Cidade: </label>
+    <input type="cidade" name="cidade" /><br/> 
+
+    <label :optional for="Telefone">Telefone: </label>
+    <input type="Telefone" name="Telefone" /><br/>
+
+    <label :required for="Endereço">Endereço: </label>
+    <input type="Endereço" name="Endereço" /><br/>
+
+    <label :required for="N° da casa">N°: </label>
+    <input type="N° da casa" name="N° da casa" /><br/>
+    
+    <label :optional for="Bairro">Bairro: </label>
+    <input type="Bairro" name="Bairro" /><br/>
+
+    <label :required for="CEP">CEP: </label> 
+    <input type="CEP" name="CEP" /><br/> 
+
+    <label :required for="estado">Estado:</label>
+    <select name="estado"> 
+    <option value="">Escolha...</option> 
+    <option value="RJ">Rio de Janeiro</option> 
+    <option value="RO">Porto Velho</option> 
+    <option value="ES">Espírito Santo</option> 
+    <option value="AM">Amazonas</option> 
+    <option value="PA">Pará</option> 
+    <option value="AL">Alagoas</option> 
+    <option value="BA">Bahia</option> 
+    <option value="MT">Mato Grosso</option> 
+    <option value="RS">Rio Grande do Sul</option> 
+    <option value="MG">Minas Gerais</option> 
+    <option value="SP">São Paulo</option> 
+    <option value="AC">Acre</option> </select> 
+
+</fieldset> 
+    
+    <!-- fim dos dados pessoais --> 
+
+<fieldset> 
+    <nav class="estado civil"> 
+    <legend :required class="estado Civil">Estado Civil:</legend> <br/> 
+
+    <input type="radio" name="estado civil" value="1" />solteiro(a) <input type="radio" name="Estado Civil" value="2" />Divorciado(a) <input type="radio" name="Estado Civil" value="3" />Viúvo(a)<input type="radio" name="Estado Civil" value="4" />Separado(a)<br/><br/> 
+    
+    </nav> 
+</fieldset> 
+     <fieldset >
+         
+        <nav class="Contrato">
+          <legend class="Contrato">Contrato</legend>
+   
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error architecto adipisci eveniet deleniti repellendus ipsam animi qui sapiente, consequuntur est esse alias beatae soluta modi ullam culpa, eius quia ex nulla. Quas, delectus eum natus deserunt ab tempore illum ut repellendus architecto odio aut alias sequi debitis labore quam ex incidunt sit fugiat. A voluptate consequatur, voluptatum necessitatibus at deleniti non doloremque delectus, veritatis quaerat, recusandae sapiente perferendis illo. Adipisci maiores aliquid quidem molestias similique pariatur molestiae sequi facere architecto libero, porro at laborum in voluptates odio omnis ut harum fugit? Accusamus, praesentium, nesciunt qui exercitationem dolorum commodi laudantium consequatur perferendis magnam, alias aut voluptatibus culpa corporis consequuntur? Fuga accusantium autem alias. Deleniti, voluptas amet. Quae molestiae quisquam excepturi cumque odio consequatur accusantium deleniti adipisci voluptates quia. Magnam, nostrum consectetur, quos, ratione neque qui libero facere odit recusandae vitae inventore dolore accusantium debitis! Explicabo cupiditate quod quisquam quae sint quaerat iure a, in consequuntur, fugit eos quas quia ipsa similique maxime quibusdam. Itaque nulla tempore vel aliquid ad molestiae cum error doloribus a laboriosam! Quia eius molestiae fugiat optio, amet mollitia maiores soluta et nostrum eaque animi! Animi hic distinctio, provident inventore minus, fugiat fugit illo exercitationem tenetur odit corrupti iusto laudantium quod ipsum aperiam minima sunt iste, laborum neque quis doloremque. Quibusdam vitae necessitatibus ipsum animi earum, totam voluptatum esse perferendis adipisci, libero assumenda, incidunt rem nostrum cumque architecto nam labore veritatis. Laudantium, veniam eum sit, minus odit laboriosam magnam, praesentium doloremque neque temporibus rem perferendis consequuntur earum libero ea ad et voluptatem. Molestiae quam quae autem id eos laboriosam at voluptatem quisquam suscipit magnam architecto aspernatur nulla aut totam minus quia dicta exercitationem, esse aperiam? Aperiam quod voluptas sequi fugit amet delectus odio reiciendis nihil facilis architecto. Ad provident aut consequuntur. Doloribus iusto blanditiis modi neque esse. Eveniet fugit temporibus perferendis obcaecati eum dolore sint minima commodi, assumenda expedita aut vero eius architecto officia doloremque magnam ipsam quidem molestiae quaerat id, quis repellat fuga, ducimus maxime! Excepturi animi a possimus praesentium deleniti quisquam, consequuntur impedit reiciendis rerum consequatur non corrupti dolore quos tempore autem quas beatae velit omnis quidem magni. Praesentium vel numquam ad aliquam impedit molestiae eaque consectetur dolorum autem, sapiente quibusdam ullam ipsum tenetur, architecto, corporis commodi corrupti est labore eligendi harum amet similique! Obcaecati numquam quasi quos suscipit nihil praesentium, eius eveniet magnam consequuntur. Asperiores ipsum quibusdam id excepturi saepe at reiciendis repellendus? Nesciunt modi sapiente fugit molestiae neque. Sunt cum, asperiores cumque ad odit fuga quos? Totam mollitia culpa dolores? Veritatis facilis enim ipsum pariatur omnis porro iure tempore ea perspiciatis inventore obcaecati mollitia at, esse ipsa quidem aspernatur voluptas laborum nisi, ducimus deserunt? Nemo eligendi ex similique soluta sunt neque ea, minima eveniet, rerum veritatis blanditiis architecto atque ratione consequuntur, non error illum. Laborum cum exercitationem rem itaque, corporis aliquam consequatur quas quidem iste suscipit asperiores tempore odit sapiente veritatis impedit magni dolor omnis unde recusandae architecto assumenda natus odio id non! Quidem corporis tempora amet, itaque excepturi quae, eius nulla saepe eum ut repellat temporibus? Porro impedit architecto culpa harum, nostrum aspernatur vero, amet repellat dicta suscipit voluptates inventore, quibusdam consequatur neque? Molestiae voluptatum sapiente quo omnis, nemo consequatur dicta accusamus, quae a alias dignissimos officiis reprehenderit ut. Autem voluptatibus praesentium facere atque iusto doloremque minus, sequi eveniet, laudantium architecto quos soluta amet! Ea dolor sed tempore cumque earum nam eos beatae numquam, perspiciatis cupiditate dolorum recusandae deserunt minima autem asperiores natus odio in doloribus, ullam similique. Aut, obcaecati tempore dolorum praesentium incidunt nisi labore odio facilis? Placeat, at doloribus! Dignissimos non magnam sunt minima cupiditate fugit in veniam sint, est nam sequi fuga itaque, rem consequuntur aliquam, quis pariatur inventore neque enim numquam voluptate possimus dicta obcaecati suscipit? Eligendi dolorum ea eos, repudiandae consectetur, sapiente sunt, fuga alias adipisci velit rem! Quidem quibusdam atque doloribus beatae explicabo minus. Rem modi corrupti deleniti, placeat veritatis eaque sunt explicabo, quas possimus repellendus ex aspernatur numquam nobis a saepe tenetur dolore aut magnam ut doloribus asperiores esse. Error iure, recusandae quasi aperiam expedita nesciunt corporis aliquam doloribus voluptate, non, rerum doloremque veniam ratione. Odit consectetur dolor exercitationem tempora! Quam hic harum laudantium distinctio esse corporis nemo accusantium voluptates suscipit iusto veritatis architecto cum omnis rem quas inventore, eos autem? Et laborum atque magnam at dolore laboriosam fugit tempore culpa, quia natus rerum qui, eum nemo provident, eius architecto. Quibusdam perferendis molestias iste explicabo nesciunt consequatur veniam, harum voluptas error accusamus, exercitationem, recusandae obcaecati quod! Laudantium, hic impedit? Deserunt, quaerat incidunt laborum assumenda nulla quibusdam corrupti quam. Porro assumenda dolorum, voluptates suscipit fugiat distinctio nobis facilis harum illo perspiciatis, molestias et minus cumque dolor quasi sunt adipisci maiores? Architecto, modi. Nisi eaque, officiis unde nostrum facere ipsam deleniti at. Et excepturi magnam dolorem nihil assumenda nisi laboriosam deserunt, vitae commodi nemo dicta delectus animi quas adipisci ipsa aliquam velit minus facere. Eveniet, voluptatem explicabo, voluptas provident mollitia facilis quasi veniam, pariatur fuga libero cumque? Perferendis possimus doloremque cum officiis vel consequuntur totam consectetur porro nobis unde, dolores repudiandae reiciendis incidunt inventore et nostrum ea, eos harum eaque? Quos a dicta, corrupti iusto amet accusamus itaque sapiente beatae in laborum odio laudantium tenetur at provident officiis magnam voluptates sed repellendus, placeat, quasi illum excepturi! Hic eveniet rerum, iure nam voluptas veritatis magnam neque aut non, veniam iusto animi facilis aperiam dolore voluptatum ad excepturi quisquam tempore nobis deserunt vel at dolorum voluptatibus? Fuga blanditiis, sint amet eum rem ullam nulla dicta omnis debitis accusamus labore molestias officia odio repellendus autem fugiat veritatis fugit maxime laborum corrupti voluptatem ratione quis. Similique non perferendis a optio tenetur temporibus officia? Assumenda sunt, soluta perspiciatis corrupti tenetur, possimus dignissimos est laboriosam temporibus voluptates omnis nobis fuga earum similique vitae dolore asperiores doloremque, voluptatem modi fugiat ab. Ut consequuntur dolore non eligendi sed maxime voluptatum rerum, similique ipsa, dolores nemo sint quae labore minima atque necessitatibus obcaecati. Distinctio id alias unde inventore pariatur! Consectetur minima, at laborum hic harum eligendi id quasi ipsum, voluptate deleniti molestiae illum voluptatibus fugiat debitis a?</p>
+ </textarea>
+
+ <input :required  type="radio" name="Li e concordo" id="Li e concordo"value="1" />Li e concordo<br>
+</nav>
+</fieldset> 
+
+        <fieldset class="Contato">
+          <legend class="Contato">Contato para mais informações</legend>
+
+     <h1>• TEl:</h1>
+     <p>+55 XX XXXXX-XXXX</p>
+     <h1>• Email: </h1>
+     <p>Parkleeh31@gmail.com</p>
+     <h1>• Site:</h1>
+     <p><a href="https://github.com/Luarkim"> https://github.com/Luarkim</a><br>
+     <hr>
+
+    </fieldset> 
+     <!-- fim dos dados pessoais --> 
+
+     <fieldset class="fsAcoes">
+    <legend class="fsAcoes">Ações</legend> <div class="centro"> 
+    <input class="bt bt_enviar" type="submit" value="Enviar" /> 
+    <input class="bt bt_limpar" type="reset" value="Limpar"> 
+
+</div> 
+
+</fieldset> 
+
+<!-- fim das ações --> 
+
+</form>
+
+<!-- fim do form -->
+</body>
+</html>
+
